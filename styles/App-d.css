@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'geist';
+    src: url('../assets/fonts/Geist/variable/Geist[wght].ttf');
+}
+
+body {
+    font-family: geist;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.header-d {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+    height: 60px;
+}
+
+.header-text-d {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.logo-d {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.page {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.our-team-d {
+    padding: 20px;
+    text-align: left;
+}
+
+.our-team-header-d {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: 1px solid #333333;
+    margin-bottom: 30px;
+}
+
+.text-d {
+    color: #ffffff;
+}
+
+.section-header-d {
+    font-size: 24px;
+    font-weight: bold;
+    color: #C68DFF;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.user-d {
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    color: #ffffff;
+    border: 1px solid #333333;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    width: calc(100% - 50px);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.user-d:hover {
+    background-color: #2a2a2a;
+}
+
+.user-avatar-d {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), 1fr);
+    gap: 10px;
+}
+
+.column {
+    text-align: center;
+}
+
+.footer-d {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+    height: 60px;
+}
+
+.footer-text-d {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+}
